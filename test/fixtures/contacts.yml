@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  f1: MyText
+  f2: false
+  f3: 2013-12-14
+  f4: 2013-12-14 22:35:20
+  f5: 9.99
+  f6: 1.5
+  f7: 1
+  f9_id: 
+  f10: MyString
+  f11: MyText
+  f12: 2013-12-14 22:35:20
+  f13: 2013-12-14 22:35:20
+
+two:
+  f1: MyText
+  f2: false
+  f3: 2013-12-14
+  f4: 2013-12-14 22:35:20
+  f5: 9.99
+  f6: 1.5
+  f7: 1
+  f9_id: 
+  f10: MyString
+  f11: MyText
+  f12: 2013-12-14 22:35:20
+  f13: 2013-12-14 22:35:20

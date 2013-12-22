@@ -1,0 +1,15 @@
+<%= simple_form_for(@account) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :user_name %>
+    <%= f.input :description %>
+    p1<%= f.input :premium %>
+    <%= f.input(:premium) %>
+    <%= f.input :income %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

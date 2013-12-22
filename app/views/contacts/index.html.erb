@@ -1,0 +1,49 @@
+<h1>Listing contacts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>F1</th>
+      <th>F2</th>
+      <th>F3</th>
+      <th>F4</th>
+      <th>F5</th>
+      <th>F6</th>
+      <th>F7</th>
+      <th>F9</th>
+      <th>F10</th>
+      <th>F11</th>
+      <th>F12</th>
+      <th>F13</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @contacts.each do |contact| %>
+      <tr>
+        <td><%= contact.f1 %></td>
+        <td><%= contact.f2 %></td>
+        <td><%= contact.f3 %></td>
+        <td><%= contact.f4 %></td>
+        <td><%= contact.f5 %></td>
+        <td><%= contact.f6 %></td>
+        <td><%= contact.f7 %></td>
+        <td><%= contact.f9 %></td>
+        <td><%= contact.f10 %></td>
+        <td><%= contact.f11 %></td>
+        <td><%= contact.f12 %></td>
+        <td><%= contact.f13 %></td>
+        <td><%= link_to 'Show', contact %></td>
+        <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
+        <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Contact', new_contact_path %>
